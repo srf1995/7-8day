@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+	<head>
+		<title>7-8天作业</title>
+		<meta charset="utf-8">
+		<style>
+/*-------------------基本设置-------------------------------------------*/
+			html,body,p,ul,li{
+				margin:0;
+				padding:0;
+			}
+			html{
+				width:100%;
+				height:100%;
+			}
+			body{
+				font-size:10px;
+				height:100%;
+				width:100%;
+				background-color:#d3e9e0;
+			}
+/*-------------------第一部分设置-------------------------------------------*/
+			.warp{
+				margin:0 auto;
+				width:960px;
+				height:100%;
+			}
+			.box_1{
+				overflow:auto;
+				width:100%;
+				height:45px;
+				background-color:#000;
+				line-height:45px;
+			}
+			.box_1 p{
+				float:left;
+				margin-left:110px;
+				font-size:16px;
+			}
+			.box_1 ul{
+				list-style:none;
+				margin-right:100px;
+				float:right;
+				display:flex;
+				line-height:14px;
+			}
+			.box_1 ul li{
+				margin-right:6px;
+			}
+			.box_1 ul a{
+				color:#fff;
+			}
+			.logo{
+				margin-top:0;
+				margin-bottom:0;
+				color:#fff;
+			}
+/*-------------------第二部分设置-------------------------------------------*/
+			.box_2{
+				width:100%;
+				height:160px;
+				background-color:#3db900;
+			}
+			.box_2 ul{
+				position:relative;
+				width:100px;
+				float:right;
+				list-style:none;
+				display:flex;
+				margin-top:128px;
+				margin-right:100px;
+			}
+			.box_2 li{
+				width:20px;
+				height:25px;
+				border:1px solid #000;
+				text-align:center;
+				font-size:6px;
+				line-height:25px;
+				background-color:#d3d3d3;
+			}
+			.box_2 li:nth-child(1),.box_2 li:nth-child(2),.box_2 li:nth-child(3){
+				margin-right:4px;
+			}
+			.box_2 li:nth-child(1){
+				margin-right:30px;
+			}
+			.box_2 li:nth-child(2){
+				position:absolute;
+				top:-10px;
+				left:26px;
+				height:35px;
+				background-color:#f3f3f3;
+				line-height:45px;
+			}
+/*-------------------第三部分设置-------------------------------------------*/
+			.box_3{
+				width:100%;
+				height:40px;
+				border-bottom:1px solid #b1feeb;
+				background-color:#fff;
+			}
+			.box_3 ul{
+				display:flex;
+				list-style:none;
+				width:210px;
+				height:30px;
+				line-height:28px;
+				padding-top:11px;
+				margin-left:110px;
+			}
+			.box_3 ul li{
+				width:70px;
+				text-align:center;
+				border:1px solid #d9d9d9;
+				font-size:8px;
+				background-color:#e9e9e9;
+				border-radius:10px 10px 0 0;
+			}
+			.box_3 ul li:nth-child(1){	
+				border-bottom:1px solid #fff;
+				background-color:#fff;
+			}
+/*-------------------第四部分设置-------------------------------------------*/
+			.box_4{
+				width:100%;
+				height:395px;
+				background-color:#fff;
+			}
+			.content{
+				margin:0 auto;
+				width:720px;
+				height:395px;
+			}
+			.contents div{
+				height:100px;
+				box-sizing: border-box;
+				margin-right: 5px;
+				margin-top: 5px;
+				padding:60px;
+				border:1px solid #ccc;
+			}
+			.contents{
+				display: flex;
+			}
+			.contents_1{
+				flex:1 0 35%;
+			}
+
+			.contents_2{
+				flex:1 2 25%;
+			}
+
+			.contents_3{
+				flex:1 1 25%;
+			}
+
+			.contents_4{
+				flex:1 1 33%
+			}
+/*-------------------第五部分设置-------------------------------------------*/
+			.box_5{
+				width:100%;
+				height:80px;
+				background-color:gray;
+				font-family:"黑体";
+				color:#fff;
+				text-align:center;
+			}
+			.box_5 p{
+				padding-top:5px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="warp">
+			<div class="box_1">
+				<p class="logo">Logo</p>
+				<ul>
+					<li><a href="http://www.github.com">Github</a></li>
+					<li><a href="http://www.github.com">Register</a></li>
+					<li><a href="http://www.github.com">Login</a></li>
+				</ul>
+			</div>
+			<div class="box_2">
+				<ul>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+				</ul>
+			</div>
+			<div class="box_3">
+				<ul>
+					<li>HOME</li>
+					<li>PROFILE</li>
+					<li>ABOUT</li>
+				</ul>
+			</div>
+			<div class="box_4">
+				<div class="content">
+					<div class="contents">
+					<div class="contents_1">This is Content 1</div>
+					<div class="contents_1">MaybeContent 2</div>
+					<div class="contents_2">Content 3</div>
+				</div>
+				<div class="contents">
+					<div class="contents_3">Content 4</div>
+					<div class="contents_3">Content 5</div>
+					<div class="contents_3">Content 6</div>
+					<div class="contents_3">Content 7</div>
+				</div>
+				<div class="contents">
+					<div class="contents_4">Content 8</div>
+					<div class="contents_4">Content 9</div>
+					<div class="contents_4">Content 10</div>
+				</div>
+			</div>
+		</div>
+		<div class="box_5">
+			<p>&copy; 2018 ife.baidu.com</p>
+		</div>
+	</body>
+</html>
